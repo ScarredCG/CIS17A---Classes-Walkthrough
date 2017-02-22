@@ -36,9 +36,9 @@ string Course::GetClassInfo()
 			//int p = 0;
 			if (student.GetName() != "Null") 
 			{
-
+				info += student.GetName() + "\n";
 			}
-			info += student.GetName() + "\n";
+	
 		}
 		// for (int i = 0; i <= _students.length; i++)
 		return info;
