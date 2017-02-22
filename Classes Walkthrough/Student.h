@@ -11,6 +11,7 @@ private: //adds private. people can read, but not write
 
 public:
 	// void SetName(std::string name);
+	Student();
 	Student(std::string name);
 	~Student();
 
