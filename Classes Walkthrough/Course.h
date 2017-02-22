@@ -16,4 +16,5 @@ public:
 	~Course();
 
 	bool EnrollStudent(Student newStudent, int position);
+	std::string GetClassInfo();
 };
